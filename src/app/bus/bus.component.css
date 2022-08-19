@@ -1,0 +1,48 @@
+a:link, a:visited {
+    /* background-color: grey; */
+    color: rgb(13, 2, 2);
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(12, 140, 219);
+  }
+  h3{
+    padding: 6px 10px;
+    text-align: center;
+  }
+  .section {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .section .section-center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  #booking {
+    font-family: 'PT Sans', sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcZ9s2xzVsQLBR_rHaksuY3ADGaWqVECBDyA&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+  }
+
+
+
+
+  /* .container {
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: size 0%;
+    position: relative;
+  } */
